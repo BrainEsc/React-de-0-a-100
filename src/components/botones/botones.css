@@ -1,0 +1,55 @@
+
+.btn-statecard{
+ margin-left: 12px;
+padding: 8px 16px;
+border: none;
+border-radius: 999px;
+background-color:green;
+color:white;
+font-size: 14px;
+font-weight: 700;
+cursor: pointer;
+transition: background-color 0.2s ease;
+    
+}
+.btn-statecard-desactivado{
+margin-left: 12px;
+padding: 8px 16px;
+border: none;
+border-radius: 999px;
+background-color:grey;
+color:white;
+font-size: 14px;
+font-weight: 700;
+cursor: pointer;
+transition: background-color 0.2s ease;
+    
+}
+
+
+.btn-countCard{
+margin-left: 12px;
+padding: 8px 16px;
+border: none;
+border-radius: 999px;
+background-color:black;
+color:white;
+font-size: 14px;
+font-weight: 700;
+cursor: pointer;
+transition: background-color 0.2s ease;
+    
+
+}
+.btn-reloadCount{
+margin-left: 12px;
+padding: 8px 16px;
+border: none;
+border-radius: 999px;
+background-color:white;
+color: black;
+font-size: 14px;
+font-weight: 700;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}          
