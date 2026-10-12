@@ -2,13 +2,12 @@
 import { createRoot } from 'react-dom/client';
 import React from 'react';
 import "./App.css"
-import { TwitterFollowCard } from './components';
-import{App}from"./Views/"
-const SpecialButton = ({ text }) => {
-  return <button>{text}</button>;
-};
+import{TikTak}from "./Views"
 
 createRoot(document.getElementById('root')).render(
+  <React.Fragment>
+    <TikTak/>
+  </React.Fragment>
   
-  <App/>
+  
 );
